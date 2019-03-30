@@ -6,14 +6,14 @@ Solution:
 
 Here, n = 20, n - k = 5, k = 20 - 5 = 15
 
-Here the probability of success = probability of giving a right answer = s = 14
+Here the probability of success = probability of giving a right answer = s = 1/4
 
-Hence, the probability of failure = probability of giving a wrong answer = 1 - s = 1 - 14 = 34
+Hence, the probability of failure = probability of giving a wrong answer = 1 - s = 1 - 1/4 = 3/4
 
 When we substitute these values in the formula for Binomial distribution we get,
 
-So, P (exactly 5 out of 20 answers incorrect) = C (20, 5) * (14) 15 * (34) 5
+So, P (exactly 5 out of 20 answers incorrect) = C (20, 5) * (1/4)^15 * (3/4)^5
 
-→	P (5 out of 20) = (20∗19∗18∗17∗16)(5∗4∗3∗2∗1) * (14) 15 * (34) 5
+→	P (5 out of 20) = (20∗19∗18∗17∗16)/(5∗4∗3∗2∗1) * (1/4)^15 * (3/4)^5
 
 = 0.0000034 (approximately)
