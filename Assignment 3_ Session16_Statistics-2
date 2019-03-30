@@ -1,0 +1,17 @@
+Two balls are drawn at random in succession without replacement from an urn containing 4 red balls and 6 black balls.
+
+Find the probabilities of all the possible outcomes.
+
+Solution:
+
+Let R be Red balls = 4
+    B be Black balls = 6
+
+Following are the probabilities of all the possible outcomes:
+
+P(RR) = (4/10) × (3/9) = 12/90 = 2/15
+P(RB) = (4/10) × (6/9) = 24/90 = 4/15
+P(BR) = (6/10) × (4/9) = 24/90 = 4/15
+P(BB) = 6/10 × 5/9 = 30/90 = 1/3
+
+Notice that the sum of all these probabilities = 2/15 + 4/15 + 4/15 + 1/3 = 1
